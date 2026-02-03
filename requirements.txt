@@ -1,0 +1,33 @@
+# Real-Time Trading Prediction System - Requirements
+# Install with: pip install -r requirements.txt
+
+# Core Data Processing
+pandas>=1.5.0
+numpy>=1.23.0
+requests>=2.28.0
+
+# Technical Analysis
+TA-Lib>=0.4.25
+# Note: TA-Lib requires separate installation
+# Windows: Download from https://www.lfd.uci.edu/~gohlke/pythonlibs/#ta-lib
+# Linux/Mac: pip install TA-Lib
+
+# Machine Learning
+scikit-learn>=1.2.0
+
+# Deep Learning (Optional but Recommended)
+tensorflow>=2.12.0
+keras>=2.12.0
+
+# Alternative Data Sources
+yfinance>=0.2.28
+alpha-vantage>=2.3.1
+
+# Visualization (Optional)
+matplotlib>=3.6.0
+plotly>=5.14.0
+streamlit>=1.22.0
+
+# Additional Utilities
+python-dateutil>=2.8.2
+pytz>=2023.3
